@@ -11,7 +11,7 @@ from timm.models.vision_transformer import PatchEmbed, Attention, Mlp
 from huggingface_hub import snapshot_download
 from safetensors.torch import load_file
 
-from OmniGen.transformer import Phi3Config, Phi3Transformer
+from .transformer import Phi3Config, Phi3Transformer
 
 
 def modulate(x, shift, scale):
